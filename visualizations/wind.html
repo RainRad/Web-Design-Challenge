@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Add a title here -->
+
+    <!-- Boostrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
+                <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class=col-md-1></div>
+        <div id="index_column" class="col-md-6" >
+          <h1>Wind</h1>
+          <hr>
+          <a href="wind.html"><img src="../assets/images/Fig4.png" class="img-fluid"></a>
+          <p> The visualization above reflects the a city's wind speed in relation to its latitude. The data reflects that, on average,
+            most cities experienced wind speeds lower than 10 mph. Additionally, cities closer to the equator were less likely to have high
+            wind speeds, while those at higher latitudes (60+) were more likely to experience higher windspeeds. 
+          </p>
+        </div>
+        <!-- Start of Visualizations imageNav Area -->
+        <div id="index_column" class="col-md-5">
+          <h2>Visualizations</h2>
+          <hr>
+          <table class="table">
+            <thread>
+              <tr>
+                <td>
+                  <a href="temp.html"><img src="../assets/images/Fig1.png" class="img-fluid"></a>
+                </td>
+                <td>
+                  <a href="cloudiness.html"><img src="../assets/images/Fig3.png" class="img-fluid"></a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="humidity.html"><img src="../assets/images/Fig2.png" class="img-fluid"></a>
+                </td>
+                <td>
+                  <a href="wind.html"><img src="../assets/images/Fig4.png" class="img-fluid"></a>
+                </td>
+              </tr>
+            </thread>
+          </table>
+        </div>
+      </div>
+    <!-- End of container -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+
+</html>

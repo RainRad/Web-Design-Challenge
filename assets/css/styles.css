@@ -1,0 +1,23 @@
+body {background:#ededed;
+}
+
+column {background: #ffffff;
+    margin-top:50px;
+    padding:20px}
+
+
+h1 {color:#47a69f;
+    padding-top: 20px;
+}
+
+h2 {color:#47a69f;
+    padding-top: 20px;
+}
+
+#Latitude {color: #ecd0d0}
+
+#index_column {
+    margin-top: 20px;
+    background-color: #ffffff;
+    }
+
